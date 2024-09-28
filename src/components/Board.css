@@ -4,7 +4,9 @@
   margin: 0;
   background: linear-gradient(135deg, #89cff0, #28a745);
 }
-
+h1 {
+  margin: 40px 0;
+}
 .wrapper {
   width: 500px;
   height: 400px;

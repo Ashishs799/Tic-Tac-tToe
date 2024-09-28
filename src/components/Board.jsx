@@ -46,8 +46,9 @@ export const Board = () => {
   };
   return (
     <div className="container flex_column_center">
+      <h1>Tic Tac Toe</h1>
       <h2 className={`congrats-message ${isWinner ? "show" : "display_none"}`}>
-        Congratulations, {isWinner} Won! 🎊🎊
+        {isWinner} Won The Game 🎊🎊
       </h2>
 
       <div className="wrapper flex_column">
