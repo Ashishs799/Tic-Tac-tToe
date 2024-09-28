@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  background: linear-gradient(to right, rgb(14, 97, 97), rgb(40, 234, 40));
+  width: 400px;
+  height: 300px;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+}
+.square {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+.square:nth-child(1) {
+  border-top: none;
+  border-left: none;
+}
+.square:nth-child(3) {
+  border-top: none;
+  border-right: none;
+}
+.square:nth-child(3) {
+  border-bottom: none;
+  border-right: none;
+}
