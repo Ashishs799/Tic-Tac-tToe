@@ -2,9 +2,8 @@
   align-items: center;
   background-clip: padding-box;
   background: transparent;
-  border: 1px solid #000;
+  border: 1px solid #1f5654;
   border-radius: 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -16,9 +15,9 @@
   justify-content: center;
   line-height: 1.25;
   margin: 40px 0;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  padding: 12px 23px;
   position: relative;
+  min-height: 3rem;
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
@@ -40,4 +39,13 @@
 .button:active {
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   transform: translateY(0);
+}
+
+@media only screen and (max-width: 480px) {
+  .button {
+    width: 300px;
+    padding: 8px 15px;
+    font-size: 12px;
+    min-height: 2.5rem;
+  }
 }
